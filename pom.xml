@@ -56,6 +56,14 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <configuration>
+                    <outputDirectory>C:/Users/40730/servers/apache-tomcat-8.5.75/webapps/</outputDirectory>
+                </configuration>
+            </plugin>
+
         </plugins>
     </build>
 
